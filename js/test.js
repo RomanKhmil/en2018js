@@ -40,8 +40,8 @@ function resShow() {
 		container.className = 'row';
 		falseTran.className = "black";
 		trueTran.className = "black";
-		falec.className = "col-md-2 col-sm-2";
-		truec.className = "col-md-2 col-sm-2";
+		falec.className = "true";
+		truec.className = "false";
 		falseItem.appendChild(falseWord);
 		falseItem.appendChild(falseTran);
 		trueItem.appendChild(trueWord);

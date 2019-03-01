@@ -39,7 +39,7 @@ function visualAddEl(arr) {
 	var removebutton = document.createElement("button");
 	var li_container = document.createElement("div");
 	li_container.style.width = "300px";
-	li_container.className = "col-md-2 col-sm-3";
+	li_container.className = "list_item";
 
 	word.innerHTML = arr[0];
 	tran.innerHTML = arr[1];

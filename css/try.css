@@ -1,0 +1,40 @@
+textarea:focus, input:focus{
+    outline: none;
+    background-color: #130f40;
+}
+body{
+	background-color:#130f40;
+	color: #dff9fb;
+	font-size: 30pt;
+	text-align: center;
+}
+input[type = 'text']{
+	font-size: 26pt;
+    color: #dff9fb;
+    background-color: #67676726;
+    border: 5px #9581ca solid;
+    border-radius: 10px;
+}
+.true{    
+	background: #be2edd;
+    width: 48%;
+    float: left;
+    margin-right: 50px;
+}
+.false{
+	background: #6ab04c;
+    width: 47%;
+    float: left;
+}
+.result{
+	width: 95%;
+    text-align: center;
+    padding: 15px;
+}
+button{
+	font-size: 26pt;
+    color: #dff9fb;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;		
+}
